@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(to left, #000000, #666666, #000000);
+    font-family: 'Tahoma', Verdana, Segoe UI, Geneva, sans-serif;
+    color: #000000;
+    margin: 5 0 5; /* Topo recebe 0 (zero) pixels, esquerda/direita recebem 0 (zero) pixels, baixo recebe 0 (zero) pixels */
+}
+table {
+    margin: 0 auto;
+    /* border: 0px solid transparent; */
+    border-collapse: collapse;
+}
+img {
+    vertical-align: bottom;
+    border-radius: 50%;
+}
+
+/* Início: Estilos para o botão Personalizado */
+.botao_personalizado {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px solid #000000;
+    border-radius: 10px;
+    color: #c0c0c0;
+    background-color: #000000;
+    transition: color 0.3s;
+}
+.botao_personalizado:hover {
+    color: #ffffff;
+}
+/* Fim: Estilos para o botão Personalizado */
+
+/* Início: Estilos para formulário */
+fieldset {
+    padding: 2rem;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #dcdcdc;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+/* Fim: Estilos para formulário */
