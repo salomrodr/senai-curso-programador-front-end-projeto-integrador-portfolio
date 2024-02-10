@@ -1,0 +1,22 @@
+/* Botão para rolar até o topo. */
+
+.scrollTopBtn {
+    display: none;
+    position: fixed;
+    padding: 10px 14px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #c0c0c0;
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
+
+}
+
+.scrollTopBtn:hover {
+    background-color: #464646;
+    color: #ffffff;
+}
